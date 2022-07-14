@@ -1,4 +1,4 @@
-function HoleCard (): JSX.Element {
+function HotelCard (): JSX.Element {
   return (
     <article className="cities__card place-card">
       <div className="place-card__mark">
@@ -37,4 +37,4 @@ function HoleCard (): JSX.Element {
   );
 }
 
-export default HoleCard;
+export default HotelCard;

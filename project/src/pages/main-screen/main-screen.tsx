@@ -1,4 +1,4 @@
-import HoleCard from '../../components/hole-card/hole-card';
+import HotelCard from '../../components/hotel-card/hotel-card';
 
 type MainScreenProps = {
   placesCount: number,
@@ -65,11 +65,11 @@ function MainScreen ({placesCount}: MainScreenProps): JSX.Element {
               </ul>
             </form>
             <div className="cities__places-list places__list tabs__content">
-              {HoleCard()}
-              {HoleCard()}
-              {HoleCard()}
-              {HoleCard()}
-              {HoleCard()}
+              {HotelCard()}
+              {HotelCard()}
+              {HotelCard()}
+              {HotelCard()}
+              {HotelCard()}
             </div>
           </section>
           <div className="cities__right-section">
