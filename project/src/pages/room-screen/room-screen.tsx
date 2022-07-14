@@ -1,8 +1,8 @@
-type RoomScreenProps = {
-  starsCount: number;
-}
+// type RoomScreenProps = {
+//   starsCount: number;
+// }
 
-function RoomScreen ({starsCount}: RoomScreenProps): JSX.Element {
+function RoomScreen (): JSX.Element {
   return (
     <section className="property">
       <div className="property__gallery-container container">
@@ -48,7 +48,7 @@ function RoomScreen ({starsCount}: RoomScreenProps): JSX.Element {
               <span style={{width: '80%'}}></span>
               <span className="visually-hidden">Rating</span>
             </div>
-            <span className="property__rating-value rating__value">{starsCount}</span>
+            <span className="property__rating-value rating__value">4.8</span>
           </div>
           <ul className="property__features">
             <li className="property__feature property__feature--entire">
