@@ -2,95 +2,155 @@ import { Offer } from '../types/offer';
 
 export const offers: Offer[] = [
   {
-    id: 1,
-    photo: [
-      {src: 'img/apartment-small-04.jpg'},
-      {src: 'img/apartment-small-04.jpg'},
-      {src: 'img/apartment-small-04.jpg'},
-      {src: 'img/apartment-small-04.jpg'},
-    ],
-    title: 'Beautiful & luxurious studio at great location',
-    description: 'A quiet cozy and picturesque that hides behind a a river by the unique lightness of Amsterdam. The building is green and from 18th century.',
-    premium: true,
-    typeOfHousing: 'apartment',
-    rating: 4.5,
-    numberOfBedrooms: '3 Bedrooms',
-    numberOfGuests: 'Max 4 adults',
-    rentPerNight: 120,
-    items: [{item: 'Wifi'}, {item: 'Heating'}, {item: 'Kitchen'}, {item: 'Cable TV'}],
-    owner: {
-      avatar: 'img/avatar-angelina.jpg',
-      name: 'Angelina',
-      pro: true,
+    'bedrooms': 3,
+    'city': {
+      'location': {
+        'latitude': 52.370216,
+        'longitude': 4.895168,
+        'zoom': 10
+      },
+      'name': 'Amsterdam'
     },
+    'description': 'A quiet cozy and picturesque that hides behind a a river by the unique lightness of Amsterdam.',
+    'goods': [
+      'Heating'
+    ],
+    'host': {
+      'avatarUrl': 'img/1.png',
+      'id': 3,
+      'isPro': true,
+      'name': 'Angelina'
+    },
+    'id': 1,
+    'images': [
+      'img/1.png'
+    ],
+    'isFavorite': true,
+    'isPremium': false,
+    'location': {
+      'latitude': 52.35514938496378,
+      'longitude': 4.673877537499948,
+      'zoom': 8
+    },
+    'maxAdults': 4,
+    'previewImage': 'img/1.png',
+    'price': 120,
+    'rating': 4.8,
+    'title': 'Beautiful & luxurious studio at great location',
+    'type': 'apartment'
   },
   {
-    id: 1,
-    photo: [
-      {src: 'img/apartment-small-04.jpg'},
-      {src: 'img/apartment-small-04.jpg'},
-      {src: 'img/apartment-small-04.jpg'},
-      {src: 'img/apartment-small-04.jpg'},
-    ],
-    title: 'Beautiful & luxurious studio at great location',
-    description: 'A quiet cozy and picturesque that hides behind a a river by the unique lightness of Amsterdam. The building is green and from 18th century.',
-    premium: true,
-    typeOfHousing: 'apartment',
-    rating: 4.5,
-    numberOfBedrooms: '3 Bedrooms',
-    numberOfGuests: 'Max 4 adults',
-    rentPerNight: 120,
-    items: [{item: 'Wifi'}, {item: 'Heating'}, {item: 'Kitchen'}, {item: 'Cable TV'}],
-    owner: {
-      avatar: 'img/avatar-angelina.jpg',
-      name: 'Angelina',
-      pro: true,
+    'bedrooms': 2,
+    'city': {
+      'location': {
+        'latitude': 52.370216,
+        'longitude': 4.895168,
+        'zoom': 10
+      },
+      'name': 'Hamburg'
     },
+    'description': 'A quiet cozy and picturesque that hides behind a a river by the unique lightness of Hamburg.',
+    'goods': [
+      'Heating'
+    ],
+    'host': {
+      'avatarUrl': 'img/1.png',
+      'id': 3,
+      'isPro': true,
+      'name': 'Angelina'
+    },
+    'id': 2,
+    'images': [
+      'img/2.png'
+    ],
+    'isFavorite': true,
+    'isPremium': false,
+    'location': {
+      'latitude': 52.35514938496378,
+      'longitude': 4.673877537499948,
+      'zoom': 8
+    },
+    'maxAdults': 4,
+    'previewImage': 'img/2.png',
+    'price': 120,
+    'rating': 4.8,
+    'title': 'Beautiful & luxurious studio at great location',
+    'type': 'hotel'
   },
   {
-    id: 1,
-    photo: [
-      {src: 'img/apartment-small-04.jpg'},
-      {src: 'img/apartment-small-04.jpg'},
-      {src: 'img/apartment-small-04.jpg'},
-      {src: 'img/apartment-small-04.jpg'},
-    ],
-    title: 'Beautiful & luxurious studio at great location',
-    description: 'A quiet cozy and picturesque that hides behind a a river by the unique lightness of Amsterdam. The building is green and from 18th century.',
-    premium: true,
-    typeOfHousing: 'apartment',
-    rating: 4.5,
-    numberOfBedrooms: '3 Bedrooms',
-    numberOfGuests: 'Max 4 adults',
-    rentPerNight: 120,
-    items: [{item: 'Wifi'}, {item: 'Heating'}, {item: 'Kitchen'}, {item: 'Cable TV'}],
-    owner: {
-      avatar: 'img/avatar-angelina.jpg',
-      name: 'Angelina',
-      pro: true,
+    'bedrooms': 1,
+    'city': {
+      'location': {
+        'latitude': 52.370216,
+        'longitude': 4.895168,
+        'zoom': 10
+      },
+      'name': 'Brussels'
     },
+    'description': 'A quiet cozy and picturesque that hides behind a a river by the unique lightness of Brussels.',
+    'goods': [
+      'Heating'
+    ],
+    'host': {
+      'avatarUrl': 'img/1.png',
+      'id': 3,
+      'isPro': true,
+      'name': 'Angelina'
+    },
+    'id': 3,
+    'images': [
+      'img/3.png'
+    ],
+    'isFavorite': true,
+    'isPremium': false,
+    'location': {
+      'latitude': 52.35514938496378,
+      'longitude': 4.673877537499948,
+      'zoom': 8
+    },
+    'maxAdults': 4,
+    'previewImage': 'img/3.png',
+    'price': 120,
+    'rating': 4.8,
+    'title': 'Beautiful & luxurious studio at great location',
+    'type': 'house'
   },
   {
-    id: 1,
-    photo: [
-      {src: 'img/apartment-small-04.jpg'},
-      {src: 'img/apartment-small-04.jpg'},
-      {src: 'img/apartment-small-04.jpg'},
-      {src: 'img/apartment-small-04.jpg'},
-    ],
-    title: 'Beautiful & luxurious studio at great location',
-    description: 'A quiet cozy and picturesque that hides behind a a river by the unique lightness of Amsterdam. The building is green and from 18th century.',
-    premium: true,
-    typeOfHousing: 'apartment',
-    rating: 4.5,
-    numberOfBedrooms: '3 Bedrooms',
-    numberOfGuests: 'Max 4 adults',
-    rentPerNight: 120,
-    items: [{item: 'Wifi'}, {item: 'Heating'}, {item: 'Kitchen'}, {item: 'Cable TV'}],
-    owner: {
-      avatar: 'img/avatar-angelina.jpg',
-      name: 'Angelina',
-      pro: true,
+    'bedrooms': 4,
+    'city': {
+      'location': {
+        'latitude': 52.370216,
+        'longitude': 4.895168,
+        'zoom': 10
+      },
+      'name': 'Paris'
     },
-  },
+    'description': 'A quiet cozy and picturesque that hides behind a a river by the unique lightness of Paris.',
+    'goods': [
+      'Heating'
+    ],
+    'host': {
+      'avatarUrl': 'img/1.png',
+      'id': 3,
+      'isPro': true,
+      'name': 'Angelina'
+    },
+    'id': 4,
+    'images': [
+      'img/4.png'
+    ],
+    'isFavorite': true,
+    'isPremium': false,
+    'location': {
+      'latitude': 52.35514938496378,
+      'longitude': 4.673877537499948,
+      'zoom': 8
+    },
+    'maxAdults': 4,
+    'previewImage': 'img/4.png',
+    'price': 120,
+    'rating': 4.8,
+    'title': 'Beautiful & luxurious studio at great location',
+    'type': 'room'
+  }
 ];

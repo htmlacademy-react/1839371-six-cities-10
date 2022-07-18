@@ -1,28 +1,34 @@
-export type OfferPhoto = {
-  src: string;
-};
-
-export type ListItems = {
-  item: string;
-}
-
-export type OfferOwner = {
-  avatar: string;
-  name: string;
-  pro: boolean;
-};
-
 export type Offer = {
-  id: number;
-  photo: OfferPhoto[];
-  title: string;
-  description: string;
-  premium: boolean;
-  typeOfHousing: string;
-  rating: number;
-  number_of_bedrooms: string;
-  number_of_guests: string;
-  rent_per_night: number;
-  items: ListItems[];
-  owner: OfferOwner;
-};
+  bedrooms: number
+  city: {
+  location: {
+  latitude: number
+  longitude: number
+  zoom: number
+  }
+  name: string
+  }
+  description: string
+  goods: [string]
+  host: {
+  avatarUrl: string
+  id: number
+  isPro: boolean
+  name: string
+  }
+  id: number
+  images: [string]
+  isFavorite: boolean
+  isPremium: boolean
+  location: {
+  latitude: number
+  longitude: number
+  zoom: number
+  }
+  maxAdults: number
+  previewImage: string
+  price: number
+  rating: number
+  title: string
+  type: string
+}
