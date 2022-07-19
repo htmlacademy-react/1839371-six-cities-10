@@ -7,13 +7,15 @@ import NotFoundScreen from '../../pages/not-found-screen/not-found-screen';
 import Layout from '../layout/layout';
 import { AppRoute, AuthorizationStatus } from '../../consts';
 import PrivateRoute from '../private-route/private-route';
+import { Offers } from '../../types/offer';
 
 
 type AppScreenProps = {
   placesCount: number;
+  offers: Offers;
 }
 
-function App({placesCount}: AppScreenProps): JSX.Element {
+function App({placesCount, offers}: AppScreenProps): JSX.Element {
   return (
     <BrowserRouter>
       <Routes>

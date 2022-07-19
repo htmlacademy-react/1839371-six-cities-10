@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './components/app/app';
+import { offers } from './moks/offers';
 
 // const Rating = {
 //   STARS_COUNT: 4.5,
@@ -18,6 +19,7 @@ root.render(
   <React.StrictMode>
     <App
       placesCount={Place.PLACES_COUNT}
+      offers={offers}
     />
   </React.StrictMode>,
 );
