@@ -26,14 +26,14 @@ export const offers: Offer[] = [
       'img/1.png'
     ],
     'isFavorite': true,
-    'isPremium': false,
+    'isPremium': true,
     'location': {
       'latitude': 52.35514938496378,
       'longitude': 4.673877537499948,
       'zoom': 8
     },
     'maxAdults': 4,
-    'previewImage': 'img/1.png',
+    'previewImage': 'img/apartment-01.jpg',
     'price': 120,
     'rating': 4.8,
     'title': 'Beautiful & luxurious studio at great location',
@@ -54,7 +54,7 @@ export const offers: Offer[] = [
       'Heating'
     ],
     'host': {
-      'avatarUrl': 'img/1.png',
+      'avatarUrl': 'img/apartment-02.jpg',
       'id': 3,
       'isPro': true,
       'name': 'Angelina'
@@ -71,10 +71,10 @@ export const offers: Offer[] = [
       'zoom': 8
     },
     'maxAdults': 4,
-    'previewImage': 'img/2.png',
-    'price': 120,
+    'previewImage': 'img/apartment-02.jpg',
+    'price': 130,
     'rating': 4.8,
-    'title': 'Beautiful & luxurious studio at great location',
+    'title': 'White castle',
     'type': 'hotel'
   },
   {
@@ -109,8 +109,8 @@ export const offers: Offer[] = [
       'zoom': 8
     },
     'maxAdults': 4,
-    'previewImage': 'img/3.png',
-    'price': 120,
+    'previewImage': 'img/apartment-03.jpg',
+    'price': 140,
     'rating': 4.8,
     'title': 'Beautiful & luxurious studio at great location',
     'type': 'house'
@@ -140,17 +140,17 @@ export const offers: Offer[] = [
       'img/4.png'
     ],
     'isFavorite': true,
-    'isPremium': false,
+    'isPremium': true,
     'location': {
       'latitude': 52.35514938496378,
       'longitude': 4.673877537499948,
       'zoom': 8
     },
     'maxAdults': 4,
-    'previewImage': 'img/4.png',
-    'price': 120,
+    'previewImage': 'img/apartment-01.jpg',
+    'price': 150,
     'rating': 4.8,
-    'title': 'Beautiful & luxurious studio at great location',
+    'title': 'White castle',
     'type': 'room'
   }
 ];
