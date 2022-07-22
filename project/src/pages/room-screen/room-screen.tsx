@@ -1,6 +1,6 @@
 import { Review } from '../../types/review';
 import ListComment from '../../components/list-comment/list-comment';
-import CommentSubmissionForm from '../../comment-submission-form/comment-submission-form';
+import CommentSubmissionForm from '../../components/comment-submission-form/comment-submission-form';
 
 type RoomScreenProps = {
   reviews: Review;
